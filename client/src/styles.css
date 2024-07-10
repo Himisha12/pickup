@@ -1,0 +1,95 @@
+/* styles.css */
+
+nav {
+    background-color: #000; /* Black background */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0.5px gray;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  nav li:hover{
+    color: #d9d8d8; /* Light gray hover effect */
+    background-color: #333;
+    border-bottom: 2px solid #1492e1;
+    border-radius: 5px;
+  }
+  
+  nav a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    padding: 10px 10px;
+     /* Increase font size */
+  }
+ 
+  nav a.active {
+    color: #5dc1fe; 
+    /* border-bottom: 2px solid #1492e1 !important; */
+    /* background-color: #333; */
+    
+  }
+  
+  .logo {
+    font-size: 25px; /* Increase logo font size */
+    font-weight: bold;
+    margin-right: 20px; /* Add some space between logo and pages */
+    font-family: 'Pacifico', cursive; /* Use a fancy font */
+    color: #fff; /* White text for logo */
+    text-shadow: 2px 2px 4px #575757; /* Add a subtle shadow effect */
+  }
+  nav ul {
+    margin-left: auto; /* Push the ul to the right side of the header */
+  }
+  /* styles.css */
+
+body {
+  background-image: url(./image/im2.jpg);
+    background-color: #222222; 
+    color: #fff; 
+    font-family: 'Wittgenstein', 'serif';
+  }
+  
+  .home-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-page h1 {
+    color: #fff; /* White text color for h1 */
+  }
+  
+  .home-page p {
+    color: #ccc; /* Light gray text color for p */
+  }
+  /* styles.css */
+
+.order-quote-btn {
+  cursor: pointer;
+  margin: 2%;
+  background-color: #34a4eb;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  width: 20%;
+  font-family: 'Wittgenstein', 'serif';
+  }
+  
+  .order-quote-btn:hover { 
+    background-color: #1492e1;
+    scale: 1.02;
+  }

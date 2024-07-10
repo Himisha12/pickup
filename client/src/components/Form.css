@@ -1,0 +1,138 @@
+.quoteForm{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Wittgenstein', 'serif';
+}
+
+.qouteSubmit{
+    cursor: pointer;
+    margin-bottom: 30%;
+    width: 130%;
+    background-color: #34a4eb;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Wittgenstein', 'serif';
+}
+
+.qouteSubmit:hover{
+    background-color: #1492e1;
+    scale: 1.02;
+}
+
+.section1, .section2, .section3, .section4, .section5{
+    background-color: black;
+    border-radius: 5px;
+    width: 70%;
+    height: 100%;
+    margin: 2%;
+    padding: 1px;
+    box-shadow: 0px 0px 5px 0.5px gray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.orderRequest{
+    font-size: 30px;
+    width: 96%;
+    background-color: #34a4eb;
+    padding: 2%;
+    margin-top: 0%;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+}
+.customerNameDiv input[type="text"], textarea, .city input[type="text"], .zipCode input[type="text"],
+.contactPerson input[type="text"], .contactPersonNumber input, .pickupDate input, .pickupTime select, .expectedArrival input, .personName input, .personNumber input, .box input, .weight input, .CBM input, .uploadFile input, .accountManager input{
+    width: 120%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #333;
+    font-family: 'Wittgenstein', 'serif';
+}
+.multipleLocation select{
+    width: 135%;
+}
+.expectedArrival input{
+    width: 155%;
+}
+.uploadFile input{
+    width: 80%;
+}
+.pickupTime select{
+    width: 112%;
+}
+select{
+    width: 163%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #333;
+    font-family: 'Wittgenstein', 'serif';
+}
+.selectGray{
+    color: #6b6b6b !important;
+}
+option{
+    color: white;
+}
+  
+.customerNameDiv, .shipmentTypeDiv, .originPortBox, .orderTypeBox, .pickAddress, .city, .zipCode, .contactPerson, .contactPersonNumber, .pickupDate, .pickupTime, .remark, .personName , .expectedArrival, .personNumber, .box, .weight, .CBM, .multipleLocation, .uploadFile, .accountManager{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.personNumber, .CBM, .accountManager{
+    margin-bottom: 2%;
+}
+.shipmentCustomer{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 35%;
+    margin-bottom: 3%;
+}
+.originOrder{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 39.5%;
+    margin-bottom: 2%;
+}
+.pickAddress_City, .zip_contact, .number_date, .date_name, .box_weight, .multiple_upload{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 20%;
+    margin-bottom: 2%;
+}
+.date_name{
+    gap: 27%;
+}
+.time_remark{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 13%;
+    margin-bottom: 2%;
+}
+.label2{
+    font-size: 15px;
+    margin-top: 2%;
+}
+.label2 input[type="radio"]{
+    margin-right: 10%;
+}

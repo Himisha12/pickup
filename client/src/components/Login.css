@@ -1,0 +1,64 @@
+.loginContainer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Wittgenstein', 'serif';
+}
+.loginBox{
+    background-color: black;
+    border-radius: 5px;
+    width: 40%;
+    height: 75%;
+    margin: 2%;
+    padding: 1px;
+    box-shadow: 0px 0px 5px 0.5px gray;
+}
+.login{
+    font-size: 30px;
+}
+.login-form-container{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.login-form-container input[type="text"],.login-form-container input[type="password"]{
+    width: 50% !important;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    font-family: 'Wittgenstein', 'serif';
+}
+.login-form-container button{
+    cursor: pointer;
+    margin: 2%;
+    background-color: #34a4eb;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    width: 30%;
+    font-family: 'Wittgenstein', 'serif';
+}
+.login-form-container button:hover{
+    background-color: #1492e1;
+    scale: 1.02;
+}
+.registerLink{
+    text-decoration: none;
+    color: #34a4eb;
+}
+.password-container{
+    position: relative;
+}
+.toggle-password-login{
+    position: absolute;
+    right: 25% !important;
+    top: 35%;
+}

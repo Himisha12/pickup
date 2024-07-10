@@ -1,0 +1,94 @@
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Wittgenstein', 'serif';
+}
+.SignUpBox{
+    background-color: black;
+    border-radius: 5px;
+    width: 50%;
+    height: 75%;
+    margin: 2%;
+    padding: 1px;
+    box-shadow: 0px 0px 5px 0.5px gray;
+}
+.signinform{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.two{
+    margin-top: -5%;
+}
+.createAccount{
+    font-size: 30px;
+}
+.loginLink{
+    text-decoration: none;
+    color: #34a4eb;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"]{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    font-family: 'Wittgenstein', 'serif';
+  }
+  .form-container input[type="email"], .form-container input[type="text"]{
+    width: 75.5%;
+  }
+  .form-container button{
+    cursor: pointer;
+    margin: 2%;
+    background-color: #34a4eb;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Wittgenstein', 'serif';
+  }
+  .form-container button:hover{
+    background-color: #1492e1;
+    scale: 1.02;
+  }
+  .googleSignIn{
+    margin-top: 1px !important;
+  }
+ 
+  .password-container {
+    position: relative;
+    width: 100%;
+  }
+  .password-container input {
+    width: 75.5%;
+  }
+  
+  
+  .toggle-password {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ccc; 
+  }
+  .toggle-password.confirm {
+    right: 13%; /* Adjust if necessary for better alignment */
+}
+.confirm {
+  top: 50% /* Adjust this value based on your design */
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
