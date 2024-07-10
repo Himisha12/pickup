@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import { useAuth } from "../store/auth";
 import "./Form.css";
 import toast from "react-hot-toast";
@@ -31,6 +32,7 @@ function Form() {
   const [formData, setFormData] = useState(defaultQuoteFormData);
   
   const [userData,setUserData] = useState(true)
+  const [file, setFile] = useState(null);
 
   const {user} = useAuth();
 
@@ -60,6 +62,7 @@ function Form() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    
     try {
       const response = await fetch("http://localhost:5000/api/form/quote", {
         method: "POST",
@@ -415,9 +418,8 @@ function Form() {
               </label>
               <input
                 type="file"
-                value={formData.file}
                 id="spreadsheetUpload"
-                name="spreadsheetUpload"
+                name="file"
                 accept=".xls,.xlsx,.csv"
                 onChange={handleFileUpload}
                 required

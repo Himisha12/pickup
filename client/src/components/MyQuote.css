@@ -1,0 +1,43 @@
+table{
+    border-collapse: collapse;
+}
+table th , table td{
+    margin: 0%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+table th{
+    font-size: 14px;
+}
+table td{
+    font-size: 12px;
+}
+h1, h2{
+    text-align: center;
+}
+.myquote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myquote button{
+    cursor: pointer;
+    margin: 2%;
+    background-color: #34a4eb;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    width: 30%;
+    font-family: 'Wittgenstein', 'serif';
+}
+.myquote button:hover{
+    background-color: #1492e1;
+    scale: 1.02;
+}
+.droptable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
