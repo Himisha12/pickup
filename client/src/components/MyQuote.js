@@ -16,6 +16,7 @@ const MyQuote = () => {
                 setLoading(false);
             } catch (error) {
                 toast.error("Failed to fetch quotes", { duration: 3000 });
+                console.log(error);
                 setLoading(false);
             }
         };

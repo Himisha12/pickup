@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { useAuth } from "../store/auth";
 import "./Form.css";
 import toast from "react-hot-toast";
@@ -32,7 +32,7 @@ function Form() {
   const [formData, setFormData] = useState(defaultQuoteFormData);
   
   const [userData,setUserData] = useState(true)
-  const [file, setFile] = useState(null);
+  // const [file, setFile] = useState(null);
 
   const {user} = useAuth();
 
@@ -80,7 +80,7 @@ function Form() {
       console.log("Form data submitted:", formData);
     } catch (error) {
       toast.error("Form not submitted, there may be some issue , please check your input!" ,{ duration: 3000,});
-      console.log(error);
+      console.log(error)
     }
     
     // Handle form submission logic here (e.g., send the data to the server)

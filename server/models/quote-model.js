@@ -27,3 +27,4 @@ const quoteSchema = new Schema({
 
 const Quote = model("Quote", quoteSchema);
 module.exports = Quote;
+
